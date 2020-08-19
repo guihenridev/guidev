@@ -42,6 +42,7 @@ header {
     background-image: url("../img/16309.jpg");
     background-repeat: no-repeat;
     height: 500px;
+    position: relative;
 }
 
 #logo-topo {
@@ -52,9 +53,28 @@ header {
 }
 
 header ul {
-    justify-content: right;
+    position: absolute;
+    right: 10%;
 }
 
 header ul li {
     display: inline-block;
+    margin-left: 15px;
+}
+
+header ul li a {
+    font-family: 'Montserrat-medium';
+    color: #0faada;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: none;
+}
+
+header ul li a:hover {
+    color: #00c53f;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
