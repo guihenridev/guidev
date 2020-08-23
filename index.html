@@ -15,7 +15,7 @@
         <div id="menu">
             <div class="container">
                 <div class="row">
-                    <img src="./img/logo-horizontal.png" alt="Logo Guilherme" id="logo-topo">
+                    <a href="#"><img src="./img/logo-horizontal.png" alt="Logo Guilherme" id="logo-topo"></a>
                 </div>
                 <div class="row">
                     <ul>
@@ -26,58 +26,96 @@
                         <li><a href="#contato">Contato</a></li>
                     </ul>
                 </div>
+
             </div>
+        </div>
+        <div class="row text-center" id="text-banner">
+            <p> Olá! Eu sou Guilherme, seu WebDesigner! </p>
+            <a href="#"><button class="btn">Vamos Conversar?</button></a>
         </div>
     </header>
     <section>
         <div class="container" id="sobre">
             <div class="row">
-                <h2>Sobre Mim</h2>
-                <hr>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut doloribus obcaecati esse facilis ut, provident quo dolore exercitationem dolores? Asperiores voluptate quos maiores illum similique vero itaque. Eos, quas soluta!
-                </p>
-                <ul>
-                    <li><i class="fab fa-whatsapp"></i></li>
-                    <li><i class="fab fa-instagram"></i></li>
-                    <li><i class="fab fa-linkedin-in"></i></li>
-                    <li><i class="fab fa-behance"></i></li>
-                    <li><i class="fas fa-envelope"></i></li>
-                </ul>
-                <h2>O que eu faço?</h2>
-                <hr>
-                <div class="col-sm-2">
+                <div class="col-sm-6 text-sobre" id="biografia">
+                    <h2>Sobre Mim</h2>
+                    <hr>
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio laudantium veniam necessitatibus in deserunt dolor at eum excepturi recusandae laboriosam tempore sint eos mollitia, dolorum vero error repudiandae earum totam.
-                    </p>
+                        Formado em Ciência da Computação e Sistemas de Informação, pela Universidade Carlos Drummond de Andrade, em 2019. Foi quando decidi mudar meu foco para desenvolvimento web. Em desenvolvimento web tenho conhecimento em Front-End: HTML, CSS, Bootstrap,
+                        Javascript, JQuery; E em Back-End: PHP. <br> Atuo como designer gráfico e designer digital há mais de 7 anos como freelancer, com conhecimento em Adobe Photoshop, Adobe InDesign, marketing digital, técnicas
+                        de SEO e social media. </p>
+                    <ul>
+                        <li>
+                            <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fab fa-behance"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-sm-2">
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio laudantium veniam necessitatibus in deserunt dolor at eum excepturi recusandae laboriosam tempore sint eos mollitia, dolorum vero error repudiandae earum totam.
-                    </p>
+                <div class="col-sm-6 text-center" id="img-gui">
+                    <img src="./img/guilherme.jpg" alt="Guilherme">
                 </div>
-                <div class="col-sm-2">
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio laudantium veniam necessitatibus in deserunt dolor at eum excepturi recusandae laboriosam tempore sint eos mollitia, dolorum vero error repudiandae earum totam.
-                    </p>
-                </div>
-
-
             </div>
-            <div class="row">
-                <img src="./img/guilherme.jpg" alt="Guilherme">
+
+            <div class="row text-sobre" id="faco">
+                <div>
+                    <h2>O que eu faço?</h2>
+                    <hr>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Design</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio laudantium veniam necessitatibus in deserunt dolor at eum excepturi recusandae laboriosam tempore sint eos mollitia, dolorum vero error repudiandae earum totam.
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Desenvolvimento Web</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio laudantium veniam necessitatibus in deserunt dolor at eum excepturi recusandae laboriosam tempore sint eos mollitia, dolorum vero error repudiandae earum totam.
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Social Media</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio laudantium veniam necessitatibus in deserunt dolor at eum excepturi recusandae laboriosam tempore sint eos mollitia, dolorum vero error repudiandae earum totam.
+                    </p>
+                </div>
             </div>
         </div>
         <div id="tecnologias">
             <div class="container">
                 <h2>Tecnologias</h2>
+                <hr>
                 <div class="row">
-                    <div class="col-sm-2"><i class="fab fa-html5"></i></div>
-                    <div class="col-sm-2"><i class="fab fa-css3-alt"></i></div>
-                    <div class="col-sm-2"><i class="fab fa-js"></i></div>
-                    <div class="col-sm-2"><i class="fab fa-php"></i></div>
-                    <div class="col-sm-2"><i class="fab fa-github-square"></i></div>
-                    <div class="col-sm-2"><i>Ps</i></div>
+                    <div class="col-sm-2"><i class="fab fa-html5"></i>
+                        <p>Html 5</p>
+                    </div>
+                    <div class="col-sm-2"><i class="fab fa-css3-alt"></i>
+                        <p>Css3</p>
+                    </div>
+                    <div class="col-sm-2"><i class="fab fa-js"></i>
+                        <p>Javascript</p>
+                    </div>
+                    <div class="col-sm-2"><i class="fab fa-php"></i>
+                        <p>Php</p>
+                    </div>
+                    <div class="col-sm-2"><span id="photoshop">Ps</span>
+                        <p>Adobe Photoshop</p>
+                    </div>
+                    <div class="col-sm-2"><i class="fab fa-github-square">
+                        </i>
+                        <p>GitHub</p>
+                    </div>
                 </div>
             </div>
         </div>

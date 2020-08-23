@@ -41,7 +41,7 @@ header {
     width: 100%;
     background-image: url("../img/16309.jpg");
     background-repeat: no-repeat;
-    height: 500px;
+    height: 625px;
     position: relative;
 }
 
@@ -58,9 +58,11 @@ header {
 
 #logo-topo {
     max-width: 300px;
-    max-height: 60px;
+    max-height: 70px;
     width: auto;
     height: auto;
+    padding-top: 10px;
+    filter: grayscale(100%) brightness(100);
 }
 
 header ul {
@@ -80,6 +82,7 @@ header ul li a {
     text-transform: uppercase;
     text-decoration: none;
     outline: none;
+    font-size: 16px;
 }
 
 header ul li a:hover {
@@ -93,7 +96,11 @@ header ul li a:hover {
 
 #menu.active {
     background-color: #fff;
-    box-shadow: 2px -5px 22px #383838
+    box-shadow: 2px -5px 22px #383838;
+}
+
+#menu.active img {
+    filter: none;
 }
 
 #menu.active ul li a {
@@ -102,4 +109,150 @@ header ul li a:hover {
 
 #menu.active ul li a:hover {
     color: #00c53f;
+}
+
+#text-banner {
+    position: absolute;
+    top: 200px;
+    left: 30%;
+    right: 30%;
+}
+
+#text-banner p {
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 45px;
+    text-shadow: 1px 1px 4px #383838;
+}
+
+#text-banner button {
+    color: #fff;
+    background-color: #0faada;
+    font-family: 'Montserrat-medium';
+    font-size: 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: none;
+    border-radius: 0;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#text-banner button:hover {
+    color: #0faada;
+    background-color: #fff;
+}
+
+
+/*SOBRE*/
+
+#sobre {
+    margin-top: -70px;
+    padding-top: 75px;
+}
+
+.text-sobre h2 {
+    font-family: 'Montserrat-medium';
+    color: #0faada;
+    text-transform: uppercase;
+}
+
+#biografia hr {
+    border: #00c53f solid 2px;
+    width: 174px;
+    position: absolute;
+    top: 31px;
+}
+
+.text-sobre p {
+    text-align: justify;
+    font-family: 'Montserrat-light';
+    color: #383838;
+}
+
+.text-sobre ul li {
+    display: inline-flex;
+    margin-right: 50px;
+}
+
+.text-sobre ul li a {
+    font-size: 30px;
+}
+
+#img-gui img {
+    max-width: 400px;
+    max-height: 345px;
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+}
+
+.text-sobre h3 {
+    color: #383838;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#faco hr {
+    border: #00c53f solid 2px;
+    width: 247px;
+    margin-left: 0;
+    margin-top: -8px;
+}
+
+#tecnologias {
+    height: 250px;
+    width: 100%;
+    background-color: #0faada;
+}
+
+#tecnologias h2 {
+    font-family: 'Montserrat-medium';
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#tecnologias hr {
+    margin-top: -8px;
+    margin-left: 0;
+    border: #fff solid 2px;
+    width: 215px;
+}
+
+#tecnologias i {
+    color: #fff;
+    font-size: 132px;
+}
+
+#tecnologias i:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#tecnologias p {
+    font-family: 'Montserrat-light';
+    text-align: justify;
+    color: #fff;
+}
+
+#photoshop {
+    color: #0faada;
+    font-size: 100px;
+    font-weight: bold;
+    border-radius: 10%;
+    padding: 8px;
+    padding-bottom: 0px;
+    background-color: #fff;
+}
+
+#photoshop p {
+    margin-top: -9px;
 }
