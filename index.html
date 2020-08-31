@@ -128,51 +128,56 @@
             <div class="container">
                 <h2>Trabalhos Desenvolvidos</h2>
                 <hr>
-                <div class="row">
+                <div class="row" id="trabalho-dev">
                     <h3>Desenvolvimento</h3>
                     <hr>
-                    <div class="col-sm-3">
-                        <img src="" alt="Dra.Gislei">
+                    <div class="col-sm-3 text-center">
+                        <img src="img/site-gislei.jpg" alt="Dra.Gislei">
                         <h4>Site para Dra. Gislei Cristina</h4>
-                        <a href=""><button class="btn">Acessar Site</button></a></div>
-                    <div class="col-sm-3">
-                        <img src="" alt="Adoção">
+                        <a href="https://guihenridev.github.io/gislei/" target="_blank"><button class="btn">Acessar Site</button></a></div>
+                    <div class="col-sm-3 text-center">
+                        <img src="img/site-gislei.jpg" alt="Adoção">
                         <h4>Site de Adoção de Pets</h4>
                         <a href=""><button class="btn">Acessar Site</button></a></div>
-                    <div class="col-sm-3">
-                        <img src="" alt="Orlando">
+                    <div class="col-sm-3 text-center">
+                        <img src="img/site-gislei.jpg" alt="Orlando">
                         <h4>Site do Orlando City</h4>
                         <a href=""><button class="btn">Acessar Site</button></a></div>
-                    <div class="col-sm-3">
-                        <img src="" alt="FoskerStore">
+                    <div class="col-sm-3 text-center">
+                        <img src="img/site-gislei.jpg" alt="FoskerStore">
                         <h4>Loja Virtual FoskerStore</h4>
                         <a href=""><button class="btn">Acessar Site</button></a></div>
                 </div>
-                <div class="row" id="trabalho-design">
-                    <h3>Design</h3>
-                    <hr>
-                    <div class="col-sm-3">
-                        <img src="img/socialmedia.jpg" alt="Social Media">
-                        <h4>Social Media</h4>
-                        <a href=""><button class="btn">Ver mais no Behance <br><i class="fab fa-behance"></i></button></a>
-                    </div>
-                    <div class="col-sm-3">
-                        <img src="img/cartaodevisita.jpg" alt="Cartão de Visita">
-                        <h4>Cartões de Visita</h4>
-                        <a href=""><button class="btn">Ver mais no Behance <br><i class="fab fa-behance"></i></button></a>
-                    </div>
-                    <div class="col-sm-3">
-                        <img src="img/logotipo.jpg" alt="Logotipo">
-                        <h4>Logotipos</h4>
-                        <a href=""><button class="btn">Ver mais no Behance <br><i class="fab fa-behance"></i></button></a>
-                    </div>
-                    <div class="col-sm-3">
-                        <img src="img/camiseta.jpg" alt="Camiseta">
-                        <h4>Design Camisetas</h4>
-                        <a href=""><button class="btn">Ver mais no Behance <br><i class="fab fa-behance"></i></button></a>
+            </div>
+            <div class="background-design">
+                <div class="container">
+                    <div class="row" id="trabalho-design">
+                        <h3>Design</h3>
+                        <hr>
+                        <div class="col-sm-3 text-center">
+                            <img src="img/socialmedia.jpg" alt="Social Media">
+                            <h4>Social Media</h4>
+                            <a href="https://www.behance.net/gallery/102012439/Posts-Social-Media-Diversos" target="_blank"><button class="btn">Ver mais no Behance <br><i class="fab fa-behance"></i></button></a>
+                        </div>
+                        <div class="col-sm-3 text-center">
+                            <img src="img/cartaodevisita.jpg" alt="Cartão de Visita">
+                            <h4>Cartões de Visita</h4>
+                            <a href="https://www.behance.net/gallery/102062041/Cartoes-de-Visita" target="_blank"><button class="btn">Ver mais no Behance <br><i class="fab fa-behance"></i></button></a>
+                        </div>
+                        <div class="col-sm-3 text-center">
+                            <img src="img/logotipo.jpg" alt="Logotipo">
+                            <h4>Logotipos</h4>
+                            <a href="https://www.behance.net/gallery/102063281/Logofolio" target="_blank"><button class="btn">Ver mais no Behance <br><i class="fab fa-behance"></i></button></a>
+                        </div>
+                        <div class="col-sm-3 text-center">
+                            <img src="img/camiseta.jpg" alt="Camiseta">
+                            <h4>Design Camisetas</h4>
+                            <a href="https://www.behance.net/gallery/102063415/Design-de-Camisetas" target="_blank"><button class="btn">Ver mais no Behance <br><i class="fab fa-behance"></i></button></a>
+                        </div>
                     </div>
                 </div>
             </div>
+
 
         </div>
         <div id="contato">
@@ -180,24 +185,33 @@
                 <h2>Contato</h2>
                 <hr>
                 <div class="row">
-                    <form method="POST" action="form.php">
-                        <div class="form-group">
-                            <label for="nome">Nome</label>
-                            <input type="text" name="nome" id="nome" class="form-control" placeholder="Digite o seu nome" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" name="email" id="email" class="form-control" placeholder="seu@email.com.br" required>
-                        </div>
-                        <div class="form-group input-msg">
-                            <label for="mensagem">Mensagem</label>
-                            <textarea class="form-control" id="mensagem" rows="3"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-primary">Enviar</button>
-                        </div>
-                    </form>
+                    <div class="col-sm-8">
+                        <form method="POST" action="form.php">
+                            <div class="form-group">
+                                <label for="nome">Nome</label>
+                                <input type="text" name="nome" id="nome" class="form-control" placeholder="Digite o seu nome" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" class="form-control" placeholder="seu@email.com.br" required>
+                            </div>
+                            <div class="form-group input-msg">
+                                <label for="mensagem">Mensagem</label>
+                                <textarea class="form-control" id="mensagem" rows="3"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-sm-4">
+                        <p>
+                            <a href="https://api.whatsapp.com/send?phone=5511985085755" target="_blank"><i class="fab fa-whatsapp"> +55 11 9 8508 5755</i></a> <br>
+                            <a href="mailto:guihenridsilva@gmail.com"><i class="fas fa-envelope"> guihenridsilva@gmail.com</i></a>
+                        </p>
+                    </div>
                 </div>
+
             </div>
         </div>
 
