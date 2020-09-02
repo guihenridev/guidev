@@ -21,8 +21,8 @@
                     <ul>
                         <li><a href="#">Início</a></li>
                         <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#tecnologias">Tecnologias</a></li>
-                        <li><a href="#trabalhos">Trabalhos Desenvolvidos</a></li>
+                        <li><a href="#tec">Tecnologias</a></li>
+                        <li><a href="#trab">Trabalhos Desenvolvidos</a></li>
                         <li><a href="#contato">Contato</a></li>
                     </ul>
                 </div>
@@ -96,6 +96,8 @@
                     </p>
                 </div>
             </div>
+            <div id="tec"></div>
+
         </div>
         <div id="tecnologias">
             <div class="container">
@@ -123,6 +125,7 @@
                     </div>
                 </div>
             </div>
+            <div id="trab"></div>
         </div>
         <div id="trabalhos">
             <div class="container">
@@ -140,9 +143,9 @@
                         <h4>Site de Adoção de Pets</h4>
                         <a href=""><button class="btn">Acessar Site</button></a></div>
                     <div class="col-sm-3 text-center">
-                        <img src="img/site-gislei.jpg" alt="Orlando">
+                        <img src="img/site-orlando.jpg" alt="Orlando">
                         <h4>Site do Orlando City</h4>
-                        <a href=""><button class="btn">Acessar Site</button></a></div>
+                        <a href="https://guihenridev.github.io/orlando-city/" target="_blank"><button class="btn">Acessar Site</button></a></div>
                     <div class="col-sm-3 text-center">
                         <img src="img/site-gislei.jpg" alt="FoskerStore">
                         <h4>Loja Virtual FoskerStore</h4>
@@ -187,28 +190,40 @@
                 <div class="row">
                     <div class="col-sm-8">
                         <form method="POST" action="form.php">
-                            <div class="form-group">
-                                <label for="nome">Nome</label>
-                                <input type="text" name="nome" id="nome" class="form-control" placeholder="Digite o seu nome" required>
+                            <div class="col-xs-6">
+                                <div class="form-group">
+                                    <label for="nome">Nome</label>
+                                    <input type="text" name="nome" id="nome" class="form-control" placeholder="Digite o seu nome" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" name="email" id="email" class="form-control" placeholder="seu@email.com.br" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="telefone">Telefone</label>
+                                    <input type="tel" name="telefone" id="telefone" class="form-control" placeholder="(DDD) 9 9999-9999" required>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary">Enviar</button>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <label for="email">Email</label>
-                                <input type="email" name="email" id="email" class="form-control" placeholder="seu@email.com.br" required>
+                            <div class="col-xs-6">
+                                <div class="form-group input-msg" id="msg">
+                                    <label for="mensagem">Mensagem</label>
+                                    <textarea class="form-control" id="mensagem" rows="3"></textarea>
+                                </div>
                             </div>
-                            <div class="form-group input-msg">
-                                <label for="mensagem">Mensagem</label>
-                                <textarea class="form-control" id="mensagem" rows="3"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <button type="submit" class="btn btn-primary">Enviar</button>
-                            </div>
+
                         </form>
                     </div>
                     <div class="col-sm-4">
-                        <p>
-                            <a href="https://api.whatsapp.com/send?phone=5511985085755" target="_blank"><i class="fab fa-whatsapp"> +55 11 9 8508 5755</i></a> <br>
-                            <a href="mailto:guihenridsilva@gmail.com"><i class="fas fa-envelope"> guihenridsilva@gmail.com</i></a>
-                        </p>
+                        <h4>Solicite um Orçamento</h4>
+                        <hr>
+                        <ul>
+                            <li><i class="fas fa-map-marker-alt text-center"></i>São Paulo - SP</li>
+                            <li><a href="https://api.whatsapp.com/send?phone=5511985085755" target="_blank"><i class="fab fa-whatsapp text-center"></i>+55 11 9 8508 5755</a></li>
+                            <li><a href="mailto:guihenridsilva@gmail.com"><i class="fas fa-envelope text-center"></i>guihenridsilva@gmail.com</a></li>
+                        </ul>
                     </div>
                 </div>
 
@@ -219,37 +234,39 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="text-left col-xs-6">
-                    <p>Copyright © 2020 - Guilherme Henrique | Desenvolvedor Web | Designer</p>
+                <div class="col-xs-6">
+                    <a href="#"> <img src="img/logo-horizontal.png" alt="Guilherme" class="text-left"></a>
+                </div>
+                <div class="col-xs-6 text-right">
+                    <ul>
+                        <li>
+                            <a href="https://api.whatsapp.com/send?phone=5511985085755" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/venettoconsulting" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/venettoconsulting" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/guilherme-henrique-b39a85aa/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.behance.net/guihsilva" target="_blank"><i class="fab fa-behance"></i></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="row">
-                <ul>
-                    <li>
-                        <a href="https://api.whatsapp.com/send?phone=5511985085755" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/venettoconsulting" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/venettoconsulting" target="_blank"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/guilherme-henrique-b39a85aa/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.behance.net/guihsilva" target="_blank"><i class="fab fa-behance"></i></a>
-                    </li>
-                    <li>
-                        <a href="mailto:guihenridsilva@gmail.com"><i class="fas fa-envelope"></i></a>
-                    </li>
-                </ul>
-            </div>
+
         </div>
     </footer>
     <script src="./lib/jquery/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+
     <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="./js/script.js"></script>
+
+
 
 </body>
 

@@ -231,6 +231,10 @@ header ul li a:hover {
     margin-top: 30px;
 }
 
+#tec {
+    margin-top: -40px;
+}
+
 #tecnologias h2 {
     font-family: 'Montserrat-medium';
     color: #fff;
@@ -283,9 +287,14 @@ header ul li a:hover {
     margin-top: -9px;
 }
 
-#trabalho-design .col-sm-3 img {
+#trab {
+    margin-top: -60px;
+}
+
+#trabalhos .col-sm-3 img {
     width: 250px;
-    height: 250px;
+    height: 200px;
+    padding-top: 15px;
 }
 
 #trabalhos h2 {
@@ -334,15 +343,29 @@ header ul li a:hover {
     font-family: 'Montserrat';
     text-transform: uppercase;
     color: #fff;
+    font-weight: bold;
     background-color: #0984e3;
     border-radius: 0;
     outline: none;
+    margin-bottom: 20px;
+    border: #0984e3 solid 2px;
 }
 
 #trabalhos button:hover {
-    color: #0984e3;
-    border: #0984e3 solid 1px;
-    background-color: #fff;
+    color: #fff;
+    border: #fff solid 2px;
+    background-color: #757779;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#trabalhos .col-sm-3:hover {
+    box-shadow: 1px 1px 4px #383838;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -379,10 +402,117 @@ header ul li a:hover {
     color: #fff;
 }
 
+#contato h2 {
+    font-family: 'Montserrat-medium';
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#contato hr {
+    margin-top: -8px;
+    margin-left: 0;
+    border: #fff solid 2px;
+    width: 142px;
+}
+
+#contato input,
+#contato textarea {
+    width: 100%;
+    border-radius: 0;
+}
+
+#contato textarea {
+    height: 183px;
+}
+
+#contato ul li,
+#contato ul li a {
+    font-family: 'Montserrat-light';
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#contato ul li {
+    margin-bottom: 22px;
+    list-style-type: none;
+    margin-left: -38px;
+}
+
+#contato .col-sm-4 h4 {
+    text-transform: uppercase;
+}
+
+#contato .col-sm-4 hr {
+    width: 232px;
+}
+
+#contato ul li i {
+    margin-right: 5px;
+    border: #fff solid 1px;
+    padding: 7px;
+    width: 35px;
+}
+
+#contato button {
+    border-radius: 0;
+    border: #fff solid 2px;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-family: 'Montserrat-light';
+    outline: none;
+}
+
+#contato button:hover {
+    color: #0984e3;
+    font-weight: bold;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px #383838;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
 footer {
     background-color: #3b3d40;
 }
 
+footer ul {
+    padding-top: 20px;
+}
+
 footer ul li {
     display: inline-block;
+    margin-left: 10px;
+}
+
+footer ul li a {
+    font-size: 30px;
+    color: #fff
+}
+
+footer ul li a:hover {
+    color: #0984e3;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+footer img {
+    max-width: 300px;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+    padding-top: 10px;
+    filter: grayscale(100%) brightness(100);
+}
+
+footer img:hover {
+    filter: none;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
