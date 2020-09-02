@@ -292,8 +292,10 @@ header ul li a:hover {
 }
 
 #trabalhos .col-sm-3 img {
-    width: 250px;
-    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
     padding-top: 15px;
 }
 
@@ -361,7 +363,7 @@ header ul li a:hover {
     transition: all 0.3s ease;
 }
 
-#trabalhos .col-sm-3:hover {
+#trabalhos .col-md-3:hover {
     box-shadow: 1px 1px 4px #383838;
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
