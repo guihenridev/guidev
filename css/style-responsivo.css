@@ -59,6 +59,9 @@
     #contato ul li a {
         font-size: 8px;
     }
+    #contato .col-xs-4 {
+        display: none;
+    }
     #contato ul li i {
         width: 12px;
         border: none;
