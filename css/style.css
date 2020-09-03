@@ -73,7 +73,7 @@ header ul {
 
 header ul li {
     display: inline-block;
-    margin-left: 15px;
+    margin-left: 12px;
 }
 
 header ul li a {
@@ -163,8 +163,8 @@ header ul li a:hover {
 #biografia hr {
     border: #00c53f solid 2px;
     width: 174px;
-    position: absolute;
-    top: 31px;
+    margin-top: -8px;
+    margin-left: 0;
 }
 
 .text-sobre p {
@@ -441,12 +441,12 @@ header ul li a:hover {
     margin-left: -38px;
 }
 
-#contato .col-sm-4 h4 {
+#contato .col-xs-4 h4 {
     text-transform: uppercase;
 }
 
-#contato .col-sm-4 hr {
-    width: 232px;
+#contato .col-xs-4 hr {
+    width: 80%;
 }
 
 #contato ul li i {

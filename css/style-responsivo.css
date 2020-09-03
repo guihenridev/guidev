@@ -1,9 +1,69 @@
-@media only screen and (max-width: 1000px) {}
-
-@media only screen and (max-width: 768px) {
-    #tecnologias {
-        height: inherit;
+@media only screen and (max-width: 1000px) {
+    #logo-topo {
+        max-width: 250px;
+    }
+    header ul li {
+        margin-left: 8px;
+    }
+    header ul li a {
+        font-size: 12px;
+    }
+    #faco {
+        margin-top: 30px;
+    }
+    #tecnologias i {
+        font-size: 100px;
+    }
+    #photoshop {
+        font-size: 70px;
+        padding: 3px;
+        margin-left: 12px;
+    }
+    #contato ul li,
+    #contato ul li a {
+        font-size: 13px;
     }
 }
 
-@media only screen and (max-width:480px) {}
+@media only screen and (max-width: 768px) {
+    #tecnologias,
+    .background-design {
+        height: inherit;
+    }
+    #trabalhos h2 {
+        margin-top: 70px;
+    }
+    #trabalhos hr {
+        width: 259px;
+    }
+    #contato .col-xs-4 h4 {
+        font-size: 16px;
+    }
+    #contato ul li i {
+        padding: 4px;
+        width: 22px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    #text-banner p {
+        font-size: 28px;
+    }
+    footer ul li a {
+        font-size: 20px;
+    }
+    footer img {
+        max-width: 190px;
+    }
+    #contato ul li,
+    #contato ul li a {
+        font-size: 8px;
+    }
+    #contato ul li i {
+        width: 12px;
+        border: none;
+    }
+    #contato ul li {
+        margin-bottom: 0;
+    }
+}
