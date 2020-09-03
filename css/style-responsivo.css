@@ -26,6 +26,19 @@
 }
 
 @media only screen and (max-width: 768px) {
+    header {
+        background-position: right;
+        background-size: 254% 625px;
+    }
+    #text-banner p {
+        font-size: 30px;
+    }
+    #text-banner button {
+        font-size: 13px
+    }
+    #biografia {
+        margin-bottom: 54px;
+    }
     #tecnologias,
     .background-design {
         height: inherit;
@@ -47,7 +60,10 @@
 
 @media only screen and (max-width:480px) {
     #text-banner p {
-        font-size: 28px;
+        font-size: 24px;
+    }
+    #img-gui img {
+        max-width: 280px;
     }
     footer ul li a {
         font-size: 20px;
