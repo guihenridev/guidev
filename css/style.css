@@ -65,18 +65,18 @@ header {
     filter: grayscale(100%) brightness(100);
 }
 
-header ul {
+header .row ul {
     position: absolute;
     right: 10%;
     top: 30px;
 }
 
-header ul li {
+header .row ul li {
     display: inline-block;
     margin-left: 12px;
 }
 
-header ul li a {
+header .row ul li a {
     font-family: 'Montserrat-medium';
     color: #fff;
     text-transform: uppercase;
@@ -85,7 +85,7 @@ header ul li a {
     font-size: 16px;
 }
 
-header ul li a:hover {
+header .row ul li a:hover {
     color: #0984e3;
     text-decoration: none;
     -webkit-transition: all 0.3s ease;
@@ -109,6 +109,14 @@ header ul li a:hover {
 
 #menu.active ul li a:hover {
     color: #00c53f;
+}
+
+.hidden-menu {
+    display: none;
+}
+
+#btn-bars {
+    display: none;
 }
 
 #text-banner {

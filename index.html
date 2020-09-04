@@ -16,13 +16,13 @@
 <body>
     <header>
         <div id="menu">
-            <!--<div id="menu-mobile-mask" class="hidden-menu"></div>
+            <div id="menu-mobile-mask"></div>
 
-            <div id="menu-mobile" class="hidden-menu">
+            <div id="menu-mobile">
 
                 <ul class="list-unstyled">
-                    <li><a href="#">INÍCIO</a></li>
-                    <li><a href="#sobre">SOBRE</a></li>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#tec">Tecnologias</a></li>
                     <li><a href="#trab">Trabalhos Desenvolvidos</a></li>
                     <li><a href="#contato">Contato</a></li>
@@ -31,12 +31,13 @@
                     <button type="button" class="btn btn-close"><i class="fas fa-times"></i></button>
                 </div>
 
-            </div>-->
+            </div>
             <div class="container">
                 <div class="row">
                     <a href="#"><img src="./img/logo-horizontal.png" alt="Logo Guilherme" id="logo-topo"></a>
                 </div>
-                <div class="row">
+                <button id="btn-bars" type="button"><i class="fa fa-bars"></i></button>
+                <div class="row" id="nav">
                     <ul>
                         <li><a href="#">Início</a></li>
                         <li><a href="#sobre">Sobre</a></li>
@@ -284,7 +285,6 @@
     </footer>
     <script src="./lib/jquery/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
-
     <script src="./lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="./js/script.js"></script>
 
