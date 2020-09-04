@@ -371,7 +371,7 @@ header .row ul li a:hover {
     transition: all 0.3s ease;
 }
 
-#trabalhos .col-md-3:hover {
+#trabalhos .col-sm-3:hover {
     box-shadow: 1px 1px 4px #383838;
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
