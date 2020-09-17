@@ -183,7 +183,7 @@ header .row ul li a:hover {
 
 .text-sobre ul li {
     display: inline-flex;
-    margin-right: 50px;
+    margin-right: 35px;
 }
 
 .text-sobre ul li a {
@@ -517,12 +517,4 @@ footer img {
     height: auto;
     padding-top: 10px;
     filter: grayscale(100%) brightness(100);
-}
-
-footer img:hover {
-    filter: none;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
 }
